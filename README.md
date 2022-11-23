@@ -1,25 +1,46 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Rails and React
 
-Things you may want to cover:
+> Single page application using React that fetches a random greeting from a Rails API.
 
-* Ruby version
+## Built With
 
-* System dependencies
+- Ruby on Rails
+- Postgres SQL
+- HTML / CSS
+- React
 
-* Configuration
+## Getting Started
 
-* Database creation
+To get a local copy up and running follow these simple example steps.
 
-* Database initialization
+- Git clone the repository.
+- Run `bundle install` and `npm install`
+- Run `./bin/dev` and open localhost/3000 in your browser to see the web application running.
 
-* How to run the test suite
+## Authors
 
-* Services (job queues, cache servers, search engines, etc.)
+👤 **Muhyideen Elias**
 
-* Deployment instructions
+- GitHub: [@fourteen98](https://github.com/fourteen98)
+- Twitter: [@muhyideen](https://twitter.com/fourteen98)
+- LinkedIn: [Muhyideen Elias](https://www.linkedin.com/muhyideen-elias)
 
-* ...
-# hello-rails-react
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Microverse
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.

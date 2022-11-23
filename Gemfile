@@ -2,6 +2,10 @@ source 'https://rubygems.org'
 
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
+# Use better_errors
+gem 'better_errors'
+gem 'binding_of_caller'
+
 gem 'rubocop', '>= 1.0', '< 2.0'
 
 ruby '3.1.2'
