@@ -17,6 +17,7 @@ To get a local copy up and running follow these simple example steps.
 
 - Git clone the repository.
 - Run `bundle install` and `npm install`
+- Run `rails db:create` and `rails db:migrate` and `rails db:seed`
 - Run `./bin/dev` and open localhost/3000 in your browser to see the web application running.
 
 ## Authors
