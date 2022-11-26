@@ -6,7 +6,6 @@ export function Message() {
     const dispatch = useDispatch();
     const messages = useSelector(state => state.messages.messages);
     const status = useSelector(state => state.messages.status);
-    console.log(messages.map(message => message.message));
 
     return (
         <div>

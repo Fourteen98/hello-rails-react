@@ -20,7 +20,6 @@ export const messagesSlice = createSlice({
     reducers: {},
     extraReducers(builder) {
         builder.addCase(getMessages.fulfilled, (state, action) => {
-                console.log(action.payload)
                 state.messages = action.payload
                 state.status = 'succeeded'
         })
